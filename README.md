@@ -67,7 +67,7 @@ Mover a un personaje o tener en cuenta uno del otro, lo que quiere decir que a t
 
 ### Codigo: 
 
-``` 
+```Python
 import pygame
 
 pygame.init()
