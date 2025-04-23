@@ -106,3 +106,28 @@ while True:
 
 pygame.quit()
 ```
+
+
+# Sonidos en pygame
+- pygame.mixer: modulo que permitela gestion del sonido.
+- music: submudulo que gestiona la musica de fondo.
+- Sound: Objeto del modul mixer, que se puede instanciar varias veces
+
+### Archivo sonido 
+- Se recomienda usar 2 formatos principal mententes 
+  - formato WAW(waveform audio File for format)
+  - formato abiert y gratuito OGG.
+#### channel (canal) en pygame
+- Un juego tienevarios canales, de sonido.
+- Se puede signar un sonido al canal #1 otro al #2 
+- Entonces es posible reproducir sonido simultaniamente activando su lectura en diferentes canales. 
+
+
+# Sprites 
+- Objeto que asocia una ubicacion, una representacion grafica. 
+esta o aquella imagen.
+y conjunto de propiedades. 
+- booleanos que caracterizan en cuestion, por ejemplo si el objeto se puede mover o no
+- Poder hacer invisible algunos objetos. 
+- Cambiar color.
+- y mucha cosas mas.
